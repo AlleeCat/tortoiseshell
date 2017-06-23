@@ -176,6 +176,8 @@ footer {
     margin-right: 0;
     justify-content: center;
     width: 100%;
+    position: static;
+    margin-top: 8rem;
   }
   .background-image {
     position: 20%;
@@ -207,10 +209,13 @@ footer {
   .info {
     flex-direction: column;
     width: 100%;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0;
   }
-  .info-item {
+  .info-item,
+  .info-item p {
     width: 100%;
+  }
+  .appointments {
+    margin: 0;
   }
 }
